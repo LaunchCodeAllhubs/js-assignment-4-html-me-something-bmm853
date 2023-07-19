@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>A Trip to Portland, Maine</title>
-      <link href="styles.css" stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster+Two">
+      <link href="normalize.css" rel="stylesheet" type="text/css">
+      <link href="styles.css" rel="stylesheet" type="text/css">
    </head>
    <body>
       <header>
-         <h1>Highlights of Portland, Maine</h1>
+         <div id="center-heading">
+            <img class="icon" src="images/lobster.png" alt="lobster icon">
+            <h1 id="mainHeading">Highlights of Portland, Maine</h1>
+            <img class="icon" src="images/lobster.png" alt="lobster icon">
+         </div>
          <nav>
             <ul>
                <li><a href="#sea">The Sea</a></li>
@@ -18,100 +25,57 @@
       </header>
       <main>
          <article>
-            <p>When my friends and I were first bouncing around the idea of going on a trip to celebrate a year 
-            in which we would all be reaching a milestone birthday, we had no idea we would wind up living
-            out an idyllic dream vacation, fulfilling our mutual desires to act like sea-captains and 
-            experiencing the interesting history of Portland, Maine.</p>
             <section id="sea">
                <h2>The Sea</h2>
-               <p>One of the biggest draws of Portland is that it abuts the Atlantic Ocean, allowing for stunning
-               views and boating activities.</p>
+               <p>When my friends and I were first bouncing around the idea of going on a trip to celebrate a year in which we would   all be reaching a milestone birthday, we had no idea we would wind up living out an idyllic dream vacation, fulfilling our mutual desires to act like sea-captains. One of the biggest draws of Portland is that it abuts the Atlantic Ocean, allowing for stunning views and boating activities. You really can't go anywhere without a waterside experience, which created a greatly appreciated relaxing and picturesque tone to the vacation.</p>
                <h3>Whale Watching</h3>
-                  <p>In true sea-captain fashion, we went on a whale-seeking quest with decidedly less murderous
-                  intentions than the famous Ahab. Unfortunately, we only saw the back half of a whale
-                  from quite a distance. Whales are fickle and illusive creatures.</p>
+                  <p>In true sea-captain fashion, we went on a quest to find some whales, albeit with decidedly less murderous intentions than the famous Ahab. According to the ship's captain, the water was the calmest it had been all year. It appeared as if the ocean and sky were merging together and created the illusion that the ocean was vast and neverending. We saw a variety of animal life: a shark, harbor porpoises, birds, a leaping bluefin tuna. There was an exciting boat chase to hunt down a far-off whale that, unfortunately, ended without success. In the end, we only saw the back half of a whale from quite a distance. Whales are fickle and illusive creatures.</p>
                   <figure>
                      <img src="images/whale.jpeg" alt="Humpback whale with tail raised out of water">
                      <figcaption>Humpback whales making a terminal dive. Photo Credit: Tripadvisor user <a href="https://www.tripadvisor.com/Profile/Zeebo01?tab=photos&fid=28a339cb-c344-41c5-95c8-b31d6ee949a8" target = "_blank">Zeebo01</a>.</figcaption>
                   </figure>
                <h3>Peak's Island</h3>
-                  <p>Another highlight of the trip was ferrying to Peak's Island where we climbed onto the many 
-                  rocky becahes to view waves crashing into the rocks.</p>
+                  <p>Another highlight of the trip was ferrying to Peak's Island, where we stopped by their kitschy Umbrella Cover Museum and then hiked through the interior of the island to a World War II battery. My favorite part of Peak's Island, though, was hiking along the shoreline. We climbed onto the many rocky becahes to view waves crashing into the rocks and take in the beautiful scenery.</p>
                   <figure>
                      <img src="images/peaks_island.webp" alt="View of the east shore of Peak's Island">
-                     <figcaption>The rocky shoreline of Peak's Island. Photo Credit: <a href="https://hikinginmaine.blog/2021/05/29/peaks-island/" target = "_blank">Hiking in Maine</a>.</figcaption>
+                     <figcaption>The rocky shoreline of Peak's Island. Photo Credit: <a href="https://hikinginmaine.blog/2021/05/29/peaks-island/" target ="_blank">Hiking in Maine</a>.</figcaption>
                   </figure>
             </section>
             <section id="lighthouses">
                <h2>Lighthouses</h2>
-               <p>When the initial idea of going to Maine was proposed, I excitedly exclaimed, &quotI wanna see some
-               lighthouses!&quot This became the motto of our trip, and, thankfully, there are many lighthouses 
-               to see.</p>
-               <h3>Portland Head Light</h3>
-                  <p>This stunning lighthouse attracts many tourists but is adjacent to a 90-acre park that
-                  allows opportunities to space out and enjoy the gorgeous views.</p>
-                  <figure>
-                     <img src="images/portland-head-lighthouse.jpeg" alt="Portland Head Lighthouse">
-                     <figcaption>Waves crashing against the Portland Head Light shore. Photo Credit: Benjamin M. Williamson.</figcaption>
-                  </figure>
-               <h3>The Bug</h3>
-                  <p>The Portland Breakwater Light, known as "The Bug" due to its tiny stature, is only 26 
-                  feet tall.</p>
-                  <figure>
-                     <img src="images/bug_lighthouse.jpeg" alt="Portland Breakwater Lighthouse">
-                     <figcaption>The tiny lighthouse known as The Bug Light. Photo Credit: <a href="https://www.southportland.org/departments/parks-recreation-aquaticspool/parks-department/parks-trails-beaches/bug-light-park/" target = "_blank">City of South Portland</a>.</figcaption>
-                  </figure>
-               <h3>Spring Point Ledge Lighthouse</h3>  
-                  <p>Jutting into the harbor from its home on a community college campus, visitors can walk out on
-                  the breakwater to access the lighthouse and its scenic magic.</p>
-                  <figure>
-                     <img src="images/spring_point.jpeg" alt="Spring Point Ledge Lighthouse">
-                     <figcaption>View from the breakwater to the Spring Point Ledge Lighthouse. Photo Credit: Tripadvisor user <a href="https://www.tripadvisor.com/Profile/400debbiea?tab=photos" target = "_blank">Debbie A</a>.</figcaption>
-                  </figure>
-               <h3>Ram Island Ledge Light</h3>
-                  <p>Built in 1905, Ram Island Ledge Light is the newest lighthouse in the area.</p>
-                  <figure>
-                     <img src="images/ram-ledge.jpeg" alt="Ram Island Ledge Lighthouse">
-                     <figcaption>The most youthful lighthouse in Portland. Photo Credit: Robert Witkowski.</figcaption>
-                  </figure>
+               <p>When the initial idea of going to Maine was proposed, I excitedly exclaimed, &quotI wanna see some lighthouses!&quot Everyone else seemed to get on board with this sentiment, because this phrase became the motto of our trip. Thankfully, there are many lighthouses to see. We visited the Portland Head Light, a stunning lighthouse that attracts many tourists but is adjacent to a 90-acre park that allows opportunities to space out and enjoy the gorgeous views. We also got to see several lighthouses from the harbor during our whale watching trip, including one nicknamed &quotThe Bug&quot due to its tiny 26-foot stature and the Ram Island Ledge Light, the newest lighthouse in the area with a build date of 1905.</p>
+               <figure>
+                  <img src="images/portland-head-lighthouse.jpeg" alt="Portland Head Lighthouse">
+                  <figcaption>Waves crashing against the Portland Head Light shore. Photo Credit: Benjamin M. Williamson.</figcaption>
+               </figure>
             </section>
             <section id="history">
                <h2>Embracing History</h2>
-               <p>Portland is full of reminders of years past, whether 20 or 200 years ago.</p>
+               <p>When I'm traveling, I like to get to know the history of a city. We were able to go on a walking culinary tour as well as visit several historical sites to get a feel for the background of the area. While we didn't get to see everything, it was interesting to learn about some of Portland's past. The city is full of reminders of years gone by, whether 20 or 200 years ago.</p>
                <h3>Old Port</h3>
-                  <p>The cobblestone-lined streets of Old Port are a reminder of the pre-revolutionary history
-                  of Portland, Maine. Some buildings still have shutters on their windows that originally 
-                  served to stop the bowsprit of ships from crashing through the glass panes. Suffering two
-                  massive fires, the city has managed to rebuild and modernize while maintaining its historic
-                  charm. </p>
+                  <p>The cobblestone-lined streets of Old Port are a reminder of the pre-revolutionary history of Portland, Maine. Our tour guide shared some fun tidbits such as the fact that some buildings still have shutters on their windows that originally served to stop the bowsprit of ships from crashing through the glass panes. Suffering two massive fires, the city has managed to rebuild and modernize while maintaining its historic charm. </p>
                   <figure>
                      <img src="images/old_port.webp" alt="Cobblestone street in the Old Port District of Portland, Maine">
                      <figcaption>Bringing old and new together on Wharf Street in Old Port. Photo Credit: Reddit user Katowice_to_gdansk.</figcaption>
                   </figure>
                <h3>Victoria Mansion</h3>
-                  <p>Built as a summer home by a former Mainer who moved to the south to beome a hotelier and 
-                  investor in the slave trade, Victoria Mansion serves as a reminder that the North was not 
-                  immune to the influence of slavery and racism. The mansion is not done in the Victorian 
-                  architectural style but was named after Queen Victoria in an attempt to secure funding for 
-                  repairs to the home. The family was sent a painting instead. </p>
+                  <p>Built as a summer home by a former Mainer who moved to the south to beome a hotelier and investor in the slave trade, Victoria Mansion serves as a reminder that the North was not immune to the influence of slavery and racism. A sweet and knowledgeable docent led us through the mansion and shared some interesting information. For instance, the mansion is not done in the Victorian architectural style but was named after Queen Victoria in an attempt to secure funding for repairs to the home. The family was sent a painting instead.</p>
                   <figure>
                      <img src="images/victoria_mansion.jpeg" alt="Exterior of Victoria Mansion in Portland, Maine">
-                     <figcaption>Victoria Mansion is an example of Italian Villa Style architecture. Photo Credit: <a href="https://victoriamansion.org/" target = "_blank">Victoria Mansion</a>.</figcaption>
+                     <figcaption>Victoria Mansion is an example of Italian Villa Style architecture. Photo Credit: <a href="https://victoriamansion.org/" target ="_blank">Victoria Mansion</a>.</figcaption>
                   </figure>
                <h3>Vintage Shops</h3>
-                  <p>There are several fun vintage shops in Portland. One in particular focused on items from the 
-                  90s and one of my friends found the same dress she wore to prom there. It really drove home 
-                  the fact that we were in Portland to celebrate getting older. Thanks, Portland.</p>
+                  <p>There are several fun vintage shops in Portland. One in particular focused on all kinds of items from the 90s such as clothing, games, VHS tapes, and trading cards. One of my friends said it felt like her childhood bedroom. Another, while searching the clothing racks, found the same dress she wore to prom. It really drove home the fact that we were in Portland to celebrate getting older. Thanks, Portland.</p>
                   <figure>
                      <img src="images/weekend_vintage.jpeg" alt="Exterior of Weekend Vintage shop in Portland, Maine">
-                     <figcaption>Weekend Vintage is a blast from the past. Photo Credit: <a href="https://www.facebook.com/weekendvintageportland/" target = "_blank">Weekend Vintage</a>.</figcaption>
+                     <figcaption>Weekend Vintage is a blast from the past. Photo Credit: <a href="https://www.facebook.com/weekendvintageportland/" target ="_blank">Weekend Vintage</a>.</figcaption>
                   </figure>
             </section>
-            <p>I can't possibly capture all of the events and fantastic activities in Maine. Overall rating: 
-               10 lively sea shanties. I highly recommend you take the opportunity to visit yourself!</p>
+            <p id="testP" class="funParagraph">I can't possibly capture all of the events and fantastic activities in Maine. Overall rating: 10 lively sea shanties. I highly recommend you take the opportunity to visit yourself!</p>
          </article>
       </main>
       <footer>
+         <p><a href="https://www.flaticon.com/free-icons/lobster" title="lobster icons" target="_blank">Lobster icons created by Freepik - Flaticon</a></p>
          <p>&copy 2023 Becca Nelson</p>
       </footer>
    </body>
